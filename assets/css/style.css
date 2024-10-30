@@ -90,7 +90,7 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 90px;
+  height: 8vh;
   line-height: 90px;
   background: var(--body-color);
   padding-inline: 9vw;
