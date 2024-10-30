@@ -729,25 +729,31 @@ textarea {
   }
   
   .modal-body {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0.4vw;
+    padding-right: 0.4vw;
     background: #fff;
-    height: 75vh;
+    height: 74vh;
+    padding-bottom: none;
+    margin-bottom: none;
   }
   
   .modal-footer {
     display: flex;
     justify-content: right;
+    align-items: center;
     text-align: center;
     background: var(--modal-color);
-    padding: 10px;
+    
     color: #fff;
     text-align: center;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    height: 5vh;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 6vh;
   }
   
+  .modal-footer button {
+    height: 4vh;
+  }
 
   
   .close:hover,
@@ -793,10 +799,16 @@ textarea {
   .pdf-container {
     height: 74vh;
     border-radius: 10px;
+    margin-bottom: none;
+    padding-bottom: none;
   }
 
   .pdf-container iframe {
     height: 74vh;
     border-radius: 10px;
     width: 100%;
+  }
+
+  .modal-btn-style button {
+    height: 4vh
   }
