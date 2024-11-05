@@ -55,6 +55,7 @@ function myMenuFunction() {
   
   /* -- PROJECT BOX -- */
   sr.reveal(".project-box", { interval: 200 });
+  // sr.reveal(".award-object", { interval: 200 });
   /* -- HEADINGS -- */
   sr.reveal(".top-header", {});
   /* ----- ## -- SCROLL REVEAL LEFT_RIGHT ANIMATION -- ## ----- */
